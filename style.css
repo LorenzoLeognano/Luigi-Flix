@@ -408,3 +408,13 @@ body {
       flex-basis: calc(25% - 18px);
     }
   }
+
+    /* SCROLL PERSONALIZADO */
+   .container::-webkit-scrollbar {
+    width: 8px;
+   }
+
+   .container::-webkit-scrollbar-thumb {
+    background-color: #e70505;
+    border-radius: 5px;
+   }
