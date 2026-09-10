@@ -26,7 +26,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 70px;
-  padding: 0 100px;
+  width: 100%;
 }
 
 nav .nav-items {
@@ -353,11 +353,11 @@ nav .logo.space {
 
 /* SCROLL PERSONALIZADO */
 body::-webkit-scrollbar {
-  width: 15px;          
+  width: 15px;               
 }
 
 body::-webkit-scrollbar-track {
-  background: #141414;    
+  background: rgb(0, 0, 0);     
 }
 
 body::-webkit-scrollbar-thumb {
