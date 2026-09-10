@@ -61,12 +61,3 @@ svg = """<svg xmlns="http://www.w3.org/2000/svg" width="600" height="160" viewBo
         font-family="Arial, Helvetica, sans-serif"
         font-size="16" fill="#ffffff">CATÁLOGO DE FILMES E SÉRIES</text>
 </svg>
-"""
-
-out_readme = Path("/mnt/data/README.md")
-out_svg = Path("/mnt/data/luigi-flix.svg")
-out_readme.write_text(readme, encoding="utf-8")
-out_svg.write_text(svg, encoding="utf-8")
-
-print(f"README criado: {out_readme}")
-print(f"SVG criado: {out_svg}")
