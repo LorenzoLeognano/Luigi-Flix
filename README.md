@@ -1,63 +1,64 @@
-"""# 🎬 Luigi Flix
+# 🎬 Luigi Flix
 
 <p align="center">
-  <strong>Um catálogo de filmes e séries baseado em avaliações e opinião pessoal.</strong>
+  <strong>Catálogo de filmes e séries baseado em críticas, avaliações e gosto pessoal.</strong>
 </p>
 
 ---
 
-## 📖 Sobre o projeto
+## 📺 Sobre o projeto
 
-O **Luigi Flix** é um projeto de catálogo de filmes e séries criado a partir de títulos escolhidos com base em avaliações e opiniões encontradas nos principais sites de críticas de filmes e séries.
+O **Luigi Flix** é um projeto de catálogo de filmes e séries criado a partir de títulos escolhidos com base em avaliações e críticas encontradas nos principais sites especializados.
 
-A partir dessas referências e também da **minha própria opinião**, selecionei os títulos que considero mais interessantes e organizei tudo em um catálogo com uma identidade própria: a **Luigi Flix**.
+Além dessas avaliações, a seleção também foi baseada na **minha própria opinião e gosto pessoal**, criando assim uma seleção que representa os filmes e séries que considero mais interessantes.
 
-O objetivo do projeto foi desenvolver uma página com aparência de plataforma de streaming, reunindo filmes e séries em uma interface simples, visual e fácil de navegar.
+A ideia foi reunir tudo isso em uma plataforma com uma identidade própria: a **Luigi Flix**.
 
-## 🎯 Objetivos
+## 🖥️ Preview
+
+<p align="center">
+  <img src="imgs/home page.jpg" alt="Preview da Luigi Flix">
+</p>
+
+## 🎯 Objetivo
+
+O projeto foi desenvolvido para colocar em prática meus conhecimentos de **desenvolvimento web**, trabalhando principalmente com a estrutura das páginas e a criação da identidade visual.
 
 - Criar uma interface inspirada em plataformas de streaming;
 - Organizar filmes e séries em um catálogo;
-- Aplicar conhecimentos de desenvolvimento web;
-- Trabalhar com estruturação de páginas utilizando HTML;
-- Desenvolver a identidade visual do projeto utilizando CSS;
-- Praticar organização e desenvolvimento de um projeto completo.
+- Criar uma identidade visual própria;
+- Praticar HTML e CSS;
+- Trabalhar com diferentes páginas e categorias;
+- Desenvolver um projeto para estudo e portfólio.
 
 ## 🛠️ Tecnologias utilizadas
 
 - HTML5
 - CSS3
 
-## 🎥 Conteúdo
+## 🎬 Catálogo
 
-O catálogo reúne diferentes filmes e séries selecionados a partir de avaliações de sites especializados e, principalmente, da minha opinião pessoal.
+A Luigi Flix reúne filmes e séries selecionados a partir de avaliações de grandes sites de críticas e também da minha opinião pessoal.
 
-Entre os títulos apresentados estão obras como:
+Alguns dos títulos presentes no catálogo:
 
-- Interstellar
-- Oppenheimer
-- O Poderoso Chefão
-- À Espera de um Milagre
+- **Interstellar**
+- **Oppenheimer**
+- **O Poderoso Chefão**
+- **À Espera de um Milagre**
 
-## 📌 Projeto
+A seleção não tem como objetivo ser um ranking definitivo. A proposta é criar um catálogo baseado em **avaliações, críticas e gosto pessoal**.
 
-Este projeto foi desenvolvido como forma de colocar em prática conhecimentos de **desenvolvimento web**, desde a estruturação da página até a criação da identidade visual e organização do conteúdo.
+## 📂 Estrutura do projeto
 
-> **Luigi Flix** — filmes e séries escolhidos por notas, críticas e gosto pessoal.
-
-## 👨‍💻 Autor
-
-**Lorenzo Leognano**
-
-Projeto desenvolvido para fins de estudo e portfólio.
-"""
-
-svg = """<svg xmlns="http://www.w3.org/2000/svg" width="600" height="160" viewBox="0 0 600 160">
-  <rect width="600" height="160" rx="18" fill="#111111"/>
-  <text x="300" y="78" text-anchor="middle"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="48" font-weight="700" fill="#e50914">LUIGI FLIX</text>
-  <text x="300" y="115" text-anchor="middle"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="16" fill="#ffffff">CATÁLOGO DE FILMES E SÉRIES</text>
-</svg>
+```text
+LUGI FLIX/
+├── imgs/
+├── logos/
+├── index.html
+├── filmes.html
+├── filmes.css
+├── series.html
+├── series.css
+├── style.css
+└── README.md
