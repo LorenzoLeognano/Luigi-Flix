@@ -1,6 +1,4 @@
-from pathlib import Path
-
-readme = """# 🎬 Luigi Flix
+🎬 Luigi Flix
 
 <p align="center">
   <strong>Um catálogo de filmes e séries baseado em avaliações e opinião pessoal.</strong>
